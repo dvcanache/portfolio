@@ -29,7 +29,7 @@ export const skills: Skill[] = [
   },
   {
     title: "TailwindCSS",
-    icon: "https://github.com/devicons/devicon/tree/v2.16.0/icons/tailwindcss/tailwindcss-plain.svg",
+    icon: "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
   },
   {
     title: "React",
