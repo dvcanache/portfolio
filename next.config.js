@@ -1,18 +1,9 @@
+/** @type {import('next').NextConfig} */
 module.exports = {
+  output: "export", // Static export — no server needed
 
   images: {
-    loader: 'akamai',
-    path: '',
-  },
-  output: "export", // Enables static export
-  assetsPrefix: "./almostcode",
-  async redirects() {
-    return [
-      {
-        source: "/home",
-        destination: "/",
-        permanent: true,
-      },
-    ];
+    loader: "akamai", // Required for static export in Next.js 12
+    path: "",
   },
 };
