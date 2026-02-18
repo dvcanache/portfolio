@@ -1,23 +1,23 @@
 type Route = {
-  title: string,
-  path: string
-}
+  title: string;
+  path: string;
+};
 
 type FooterCol = {
-  title: string,
+  title: string;
   links: {
-    name: string,
-    link: string,
-    icon?: string,
-    leavesWebsite: boolean
-  }[]
-}
+    name: string;
+    link: string;
+    icon?: string;
+    leavesWebsite: boolean;
+  }[];
+};
 
 type Footer = {
-  columns: FooterCol[]
+  columns: FooterCol[];
   support: {
-    message: string
-  }
+    message: string;
+  };
 };
 
 export const routes: Route[] = [
@@ -26,20 +26,19 @@ export const routes: Route[] = [
     path: "/",
   },
   {
-    title: "Proyectos",
+    title: "Products",
     path: "/projects",
   },
   {
     title: "Github",
-    path: "https://github.com/AlmostCode",
+    path: "https://github.com/dvcanache",
   },
 ];
-
 
 export const footer: Footer = {
   columns: [
     {
-      title: "Paginas",
+      title: "Pages",
       links: [
         {
           name: "Home",
@@ -47,24 +46,30 @@ export const footer: Footer = {
           leavesWebsite: false,
         },
         {
-          name: "Proyectos",
+          name: "Products",
           link: "/projects",
           leavesWebsite: false,
         },
         {
           name: "Github",
-          link: "https://github.com/AlmostCode",
+          link: "https://github.com/dvcanache",
           leavesWebsite: true,
         },
       ],
     },
     {
-      title: "Social",
+      title: "Social Media",
       links: [
         {
           name: "GitHub",
-          link: "https://github.com/AlmostCode",
+          link: "https://github.com/dvcanache",
           icon: "/static/icons/github-f.svg",
+          leavesWebsite: true,
+        },
+        {
+          name: "LinkedIn",
+          link: "https://www.linkedin.com/in/dave-canache-70977723b/",
+          icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
         {
@@ -72,11 +77,12 @@ export const footer: Footer = {
           link: "https://api.whatsapp.com/send/?phone=%2B584125459537&text&type=phone_number&app_absent=0",
           icon: "/static/icons/whatsapp.svg",
           leavesWebsite: true,
-        }
+        },
       ],
     },
   ],
   support: {
-    message: "Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.",
+    message:
+      "if you have any questions or any suggestions, feel free to reach out! I'm here to help and would love to hear from you.",
   },
 };

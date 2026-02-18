@@ -13,9 +13,12 @@ function Navbar({ currentPage }) {
               src="/static/icons/almoscou.png"
               width="60"
             />
-            {"AlmostCode".split("").map((letter, index) => {
+            {"dvcanache".split("").map((letter, index) => {
               return (
-                <span key={index} className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim">
+                <span
+                  key={index}
+                  className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                >
                   {letter}
                 </span>
               );
@@ -28,11 +31,10 @@ function Navbar({ currentPage }) {
           return (
             <li
               key={index}
-              className={`list-none text-white ${
-                currentPage === item.title
+              className={`list-none text-white ${currentPage === item.title
                   ? "opacity-100"
                   : "opacity-40 hover:opacity-100 transition-opacity"
-              }`}
+                }`}
             >
               <Link href={item.path}>{item.title}</Link>
             </li>
