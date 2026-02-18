@@ -5,11 +5,10 @@ import MobileNavbar from "../global/MobileNavbar";
 import Footer from "../global/Footer";
 
 function Page({ currentPage, meta: { desc }, children }: PageProps) {
-  const pageTitle = `${
-    currentPage === "Home"
-      ? "AlmostCode"
-      : `${currentPage} - AlmostCode`
-  }`;
+  const pageTitle = `${currentPage === "Home"
+      ? "Dave Canache - Software Developer"
+      : `${currentPage} - Dave Canache`
+    }`;
   console.log(currentPage);
   return (
     <div
@@ -25,7 +24,6 @@ function Page({ currentPage, meta: { desc }, children }: PageProps) {
         <meta property="og:url" content="" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
-
       </Head>
 
       <main className="p-5 w-full flex-1 text-center">
