@@ -5,6 +5,7 @@
 [build.environment]
   NODE_VERSION = "18"
   NEXT_TELEMETRY_DISABLED = "1"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"  # <--- FORCE NETLIFY TO IGNORE THE PLUGIN
 
 [[redirects]]
   from = "/home"
