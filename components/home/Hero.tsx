@@ -18,41 +18,49 @@ function Hero() {
             className="sqD w-[100px]  sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px] opacity-30"
             style={{ animationDelay: "0.7s" }}
             src="/static/formsicon/polygon2.svg"
+            alt=""
           />
           <img
             className="sqD w-[70px] squiggle-hero-html top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px] opacity-80 hidden lg:block"
             style={{ animationDelay: "0.1s" }}
             src="/static/formsicon/polygon2.svg"
+            alt=""
           />
           <img
             className="sqD w-[120px] top-[120px] right-2 opacity-10"
             style={{ animationDelay: "0.2s" }}
             src="/static/formsicon/polygon2.svg"
+            alt=""
           />
           <img
             className="sqD w-[200px]  bottom-[-300px] -right-1/4 sm:right-[-20%] lg:bottom-[-310px] lg:right-[-120px] opacity-30"
             style={{ animationDelay: "0.3s" }}
             src="/static/formsicon/polygon2.svg"
+            alt=""
           />
           <img
             className="sqD w-[190px] hidden sm:block bottom-[-340px] left-[-180px] "
             style={{ animationDelay: "0.4s" }}
             src="/static/formsicon/polygon2.svg"
+            alt=""
           />
           <img
             className="sqD w-[120px] bottom-[-350px] sm:right-[30%] hidden lg:block"
             style={{ animationDelay: "0.4s" }}
             src="/static/formsicon/polygon2.svg"
+            alt=""
           />
           <img
             className="sqD w-[200px] bottom-[-340px] right-[60%] sm:right-[40%] opacity-10"
             style={{ animationDelay: "0.6s" }}
             src="/static/formsicon/polygon2.svg"
+            alt=""
           />
           <img
             className="sqD w-[150px] left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-10"
             style={{ animationDelay: "0.9s" }}
             src="/static/formsicon/polygon2.svg"
+            alt=""
           />
         </h1>
         <h2 className="text-fun-white text-2xl font-bold md:text-2xl mb-10 max-w-4xl">

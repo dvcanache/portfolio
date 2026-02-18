@@ -6,7 +6,7 @@ import Skills from "@/components/home/Skills";
 
 export default function Home() {
   return (
-    <Page currentPage="Home" meta={{ desc: "software developer" }}>
+    <Page currentPage="Home" meta={{ desc: "Dave Canache - Software Developer and Content Creator building beautiful web applications." }}>
       <Hero />
       <div className="mt-20 space-y-32">
         <Projects />

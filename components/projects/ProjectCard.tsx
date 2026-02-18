@@ -17,6 +17,7 @@ function ProjectCard({ project }) {
         <img
           className="w-full rounded-md"
           src={project.img}
+          alt={project.title}
         />
       </a>
       <div className="w-full mt-5">

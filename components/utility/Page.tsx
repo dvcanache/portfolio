@@ -6,8 +6,8 @@ import Footer from "../global/Footer";
 
 function Page({ currentPage, meta: { desc }, children }: PageProps) {
   const pageTitle = `${currentPage === "Home"
-      ? "Dave Canache - Software Developer"
-      : `${currentPage} - Dave Canache`
+    ? "Dave Canache - Software Developer"
+    : `${currentPage} - Dave Canache`
     }`;
   console.log(currentPage);
   return (
@@ -26,13 +26,15 @@ function Page({ currentPage, meta: { desc }, children }: PageProps) {
         <meta property="og:description" content={desc} />
       </Head>
 
-      <main className="p-5 w-full flex-1 text-center">
-        <div className="hidden sm:block z-100">
+      <header className="p-5 w-full z-50">
+        <div className="hidden sm:block">
           <Navbar currentPage={currentPage} />
         </div>
-        <div className="-m-5 block sm:hidden z-100">
+        <div className="-m-5 block sm:hidden">
           <MobileNavbar />
         </div>
+      </header>
+      <main className="p-5 w-full flex-1 text-center">
         {children}
       </main>
       <Footer />

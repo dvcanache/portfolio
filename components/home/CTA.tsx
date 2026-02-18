@@ -39,6 +39,7 @@ function CTA() {
         className="sqD w-full bottom-[0px] object-cover opacity-10 "
         style={{ zIndex: "-50" }}
         src="/static/formsicon/Map.svg"
+        alt="World Map"
       />
     </div>
   );

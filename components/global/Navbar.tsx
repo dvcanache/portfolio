@@ -12,6 +12,7 @@ function Navbar({ currentPage }) {
               className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
               src="/static/icons/almoscou.png"
               width="60"
+              alt="Dave Canache Logo"
             />
             {"dvcanache".split("").map((letter, index) => {
               return (
@@ -32,8 +33,8 @@ function Navbar({ currentPage }) {
             <li
               key={index}
               className={`list-none text-white ${currentPage === item.title
-                  ? "opacity-100"
-                  : "opacity-40 hover:opacity-100 transition-opacity"
+                ? "opacity-100"
+                : "opacity-80 hover:opacity-100 transition-opacity"
                 }`}
             >
               <Link href={item.path}>{item.title}</Link>
