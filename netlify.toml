@@ -6,11 +6,6 @@
   NODE_VERSION = "18"
   NEXT_TELEMETRY_DISABLED = "1"
 
-[[plugins]]
-  # Explicitly disable @netlify/plugin-nextjs — not needed for static exports
-  # This project uses `output: "export"` in next.config.js (pure static site)
-  # The plugin is only required for SSR/ISR Next.js apps
-
 [[redirects]]
   from = "/home"
   to = "/"
