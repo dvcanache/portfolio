@@ -7,10 +7,10 @@ function Hero() {
       <br />
       <br />
       <div
-        className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
+        className="relative heroElem w-full pt-10 pb-20 md:pt-20 md:pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
+        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-4xl md:text-6xl lg:text-7xl tracking-tighter mb-6 md:mb-10 font-bold heroShinyBg">
           Hey I'm <span className="heroShiny1 text-[#4de1c1]">Dave </span>and
           i'm a
           <span className="heroShiny2 text-[#4de1c1]"> Software Developer</span>{" "}
@@ -63,7 +63,7 @@ function Hero() {
             alt=""
           />
         </h1>
-        <h2 className="text-fun-white text-2xl font-bold md:text-2xl mb-10 max-w-4xl">
+        <h2 className="text-fun-white text-xl md:text-2xl font-bold mb-6 md:mb-10 max-w-4xl">
           I build applications and create content about software development.
           <br />I also have a passion for system design and love to create
           beautiful and functional software interfaces.
@@ -76,7 +76,7 @@ function Hero() {
           smooth={true}
           duration={500}
         >
-          <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
+          <div className="cursor-pointer font-bold whitespace-nowrap px-8 py-3 md:px-10 md:py-4 text-fun-white border-2 text-lg md:text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
             Tell me more
           </div>
         </ScrollLink>
