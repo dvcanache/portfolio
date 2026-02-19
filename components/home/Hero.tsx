@@ -4,10 +4,8 @@ import { Link as ScrollLink } from "react-scroll";
 function Hero() {
   return (
     <>
-      <br />
-      <br />
       <div
-        className="relative heroElem w-full pt-10 pb-20 md:pt-20 md:pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
+        className="relative heroElem w-full pt-1 pb-10 md:pt-20 md:pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-4xl md:text-6xl lg:text-7xl tracking-tighter mb-6 md:mb-10 font-bold heroShinyBg">
