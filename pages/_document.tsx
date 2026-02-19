@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta name="google-site-verification" content="JQsDBF1Wsjzx9NR-hdJGAAuU5SqZOl4Z5AFMtFf2Hww" />
           <link rel="icon" href="/static/logos/almostcode.svg" type="image/svg+xml" />
         </Head>
         <body>
